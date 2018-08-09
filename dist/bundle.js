@@ -30167,7 +30167,7 @@ var render = function() {
     [
       _c(
         "mt-swipe",
-        { attrs: { auto: 0 } },
+        { attrs: { auto: 3000 } },
         [
           _vm._l(_vm.lunbotuList, function(item) {
             return _c("mt-swipe-item", { key: item.id }, [

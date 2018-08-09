@@ -1,6 +1,6 @@
 <template>
     <div>
-       <mt-swipe :auto="0">
+       <mt-swipe :auto="3000">
             <mt-swipe-item v-for="item in lunbotuList" :key=item.id>
                 <img :src="item.url">
             </mt-swipe-item>
